@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 255, 0.279);
+}
+#main{
+    overflow: hidden;
+    position: relative;
+    top:10%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    scale: 1.5;
+}
+.image1{
+    position: relative;
+    left:20%;
+    top:17vh;
+
+}
+.image2{
+    position:relative;
+    left:60%;
+    bottom:25vh;
+}
+p{
+  font-size: larger;
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    position:sticky;
+    font-size:5vh;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    left:40%;
+    bottom:8%;
+
+}
+/* .image1 > img{
+    width:20%;
+    height:20%;
+}
+.image2 > img{
+    width:20%;
+    height:20%;
+} */
